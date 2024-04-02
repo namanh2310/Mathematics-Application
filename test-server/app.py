@@ -7,9 +7,9 @@ app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 # db setting
-username = "postgres"
-password = "159357"
-dbname = "aima_forum"
+username = "******"
+password = "******"
+dbname = "******"
 app.config["SQLALCHEMY_DATABASE_URI"] = f"postgresql://{username}:{password}@localhost:5432/{dbname}"
 db = SQLAlchemy(app)
 
