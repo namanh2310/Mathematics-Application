@@ -1,0 +1,14 @@
+numpy
+Flask
+Flask_Cors
+latex2sympy2
+scipy
+sympy
+matplotlib
+munch
+torchvision
+opencv-python
+pix2tex
+Pillow
+requests
+torch
