@@ -9,18 +9,7 @@ As technology continues to progress, the importance and influence of mathematics
 - Visual Studio Code
 - Python (v.3.10.4)
 
-**2. Unzip project**
-- Unzipping **[Thesis Submission] Dang Nguyen Nam Anh - ITITIU19076 (1).rar**
-- Changing directory
-```
-cd [Thesis] CODE
-```
-or you can
-```
-git clone https://github.com/namanh2310/mathapp-zens.git
-```
-
-**3. Setup server**
+**2. Setup server**
 
 - Changing directory
 ```
@@ -36,15 +25,15 @@ python "app.py"
 ```
 Note that, you should run the server after the client is run.
 
-**4. Setup client**
+**3. Setup client**
 - Installing NodeJS: https://nodejs.org/en
-- Installing Java SE Development Kit (JDK): React Native requires Java SE Development Kit (JDK), which can be easily installed using Chocolatey. If you followed the NodeJS installation guide above, Chocolatey should've been installed automatically. To install JDK open terminal as an administrator and type 
+- Installing Java SE Development Kit (JDK): React Native requires Java SE Development Kit (JDK), which can be easily installed using Chocolatey. If you followed the NodeJS installation guide above, Chocolatey should've been installed automatically. To install JDK open the terminal as an administrator and type 
 ```
 choco install -y openjdk8
 ```
-- Installing Android Studio: https://developer.android.com/studio?hl=vi, for a detail instruction, you should watch this video: https://www.youtube.com/watch?v=oorfevovPWw&t=603s
+- Installing Android Studio: https://developer.android.com/studio?hl=vi, for detailed instructions, you should watch this video: https://www.youtube.com/watch?v=oorfevovPWw&t=603s
 - Installing React Native CLI
-In powershell, you type
+In Powershell, you type
 ```
 npx react-native
 ```
@@ -53,7 +42,7 @@ npx react-native
 npx react-native init YourFirstRNProject
 ```
 
-Now move on to downloaded folder
+Now move on to the downloaded folder
 
 - Changing directory
 ```
@@ -65,14 +54,14 @@ cd client
 npm install
 ```
 
-Before running the project, you should running android simulator from Android Studio, then
+Before running the project, you should run android simulator from Android Studio, then
 
 - Running the project
 ```
 npm start
 ```
 
-**5. Appendix**
-You can access to these links for detail instructions:
+**4. Appendix**
+You can access these links for detailed instructions:
 - React Native setup: "https://www.youtube.com/watch?v=oorfevovPWw&t=603s"
 - Flask setup: "https://www.youtube.com/watch?v=GHvj1ivQ7ms"
