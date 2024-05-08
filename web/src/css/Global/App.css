@@ -1,0 +1,103 @@
+:root {
+  --container-width: 60rem;
+  --highlight-color: #0f79a6;
+  --primary-color: #13b6fc;
+  --secondary-color: #9adffc;
+  --hover-color: #04a5eb;
+  --brand-size: 30px;
+  --border-radius: 16px;
+  --input-border-radius: 8px;
+  --title-background: rgba(134, 130, 255, 0.519);
+  --transition: all ease 500ms;
+  --WipeIn: modalWipeIn ease 500ms;
+  --FadeIn: modalFadeIn ease 600ms;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html {
+  font-size: 16px;
+  position: relative;
+  background-color: #fff;
+  font-family: "Kanit", sans-serif;
+  color: black;
+  scroll-behavior: smooth;
+}
+
+/* input {
+  padding: 8px 16px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: var(--input-border-radius);
+  border: none;
+  background: aliceblue;
+  color: black;
+  accent-color: #171717;
+} */
+
+input:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #171717 inset;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 16px 0;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 100rem;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: white;
+  border-radius: 100rem;
+}
+
+/* -------------- Animation ------------------ */
+@keyframes modalWipeIn {
+  from {
+    opacity: 0.5;
+    transform: translateY(-150px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0.2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,134 @@
+.AI-container {
+  /* position: relative; */
+  /* margin: auto; */
+  width: 80vw;
+  height: auto;
+  margin-top: calc(10vh + 40px);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  transition: var(--transition);
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* border-radius: var(--border-radius); */
+  /* align-items: center; */
+  /* padding: 24px; */
+}
+
+.AI-container-activate {
+  position: relative;
+  margin: auto;
+  width: 80vw;
+  height: auto;
+  margin-top: calc(10vh + 40px);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  transition: var(--transition);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: var(--border-radius);
+  align-items: center;
+  padding: 24px;
+}
+
+.AI-container-activate::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 95%;
+  background-color: rgba(0, 0, 0, 0.126);
+  border-radius: var(--border-radius);
+}
+
+.AI-interact-field {
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  transition: var(--transition);
+}
+
+.AI-interact-field > h1 {
+  color: black;
+}
+
+/* .AI-input {
+} */
+
+.AI-input input[type="file" i]::-webkit-file-upload-button {
+  background-color: var(--secondary-color);
+  width: 100%;
+  padding: 32px;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  border: 5px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.AI-input input[type="file" i]::-webkit-file-upload-button:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+  color: white;
+  font-size: 36px;
+}
+
+.AI-image-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.AI-img {
+  max-width: 100%;
+  max-height: 280px;
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
+}
+
+.AI-button {
+  width: 480px;
+  height: 80px;
+  padding: 16px 0;
+  border-radius: var(--border-radius);
+  border: none;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 400;
+}
+
+.AI-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.AI-step-field {
+  width: 45%;
+  animation: var(--FadeIn);
+  background-color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  padding: 16px;
+  border-radius: var(--border-radius);
+}
+
+.AI-step-general {
+  width: 100%;
+  padding: 16px;
+  background-color: var(--highlight-color);
+  border-radius: var(--border-radius);
+  color: white;
+}
+
+.AI-steps > p {
+  margin: 16px 0px;
+}
+
+.step-title {
+  margin-top: 16px;
+}

@@ -1,0 +1,100 @@
+.home-container {
+  width: 75vw;
+  margin-top: calc(10vh + 40px);
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-math-fields-container {
+  position: relative;
+}
+
+.home-math-field-container {
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.home-math-field-carousel {
+  /* background-color: red; */
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  gap: 40px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.home-math-field-infor {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-math-field-icon {
+  min-width: 52px;
+  min-height: 52px;
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  border: 4px solid #64cffc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-math-field-text > p {
+  color: #6a6e72;
+}
+
+.carousel-container {
+  height: 420px;
+  border-radius: var(--border-radius);
+  border: 4px solid #81d6fa;
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); */
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.carousel-container:hover {
+  border: 4px solid var(--hover-color);
+}
+
+.carousel-container-img {
+  width: 100%;
+  height: 70%;
+}
+
+.carousel-container-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-container-text {
+  padding: 4px 32px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+}
+
+.carousel-container-text-right {
+  min-width: 64px;
+  height: 64px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container-text-right:hover {
+  background: var(--hover-color);
+  cursor: pointer;
+}
+
+.carousel-container-text-left {
+  padding-right: 8px;
+}
