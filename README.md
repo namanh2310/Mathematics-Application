@@ -67,6 +67,7 @@ You can access these links for detailed instructions:
 - Flask setup: "https://www.youtube.com/watch?v=GHvj1ivQ7ms"
 
 **5. Demo**
+
 ![image](https://github.com/namanh2310/Mathematics-Application/assets/101866057/28ecfb9b-2dfc-47bd-9408-fcfb8b5d25e7)
 ![image](https://github.com/namanh2310/Mathematics-Application/assets/101866057/88cc8c42-df7a-46a9-9cc1-ea5d8946cbdd)
 ![image](https://github.com/namanh2310/Mathematics-Application/assets/101866057/85f54165-8c8c-4463-89f3-a21caacc2e93)
